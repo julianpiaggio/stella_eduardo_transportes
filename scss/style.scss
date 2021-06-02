@@ -1,0 +1,32 @@
+@import "nav";
+@import "article";
+@import "section";
+@import "footer";
+
+@for $i from 1 through 3 {
+	.tam-letra-#{$i}{
+	font-size:18px * $i;
+    margin-top: 20px;
+	}
+}
+
+@mixin formatoLetra ($text-align, $font-size, $padding){
+	font-size:$font-size;
+	text-align:$text-align;
+	padding:$padding;
+}
+.tituloImportante{
+	@include formatoLetra(center,48px,10px);
+}
+
+@media only screen and (max-width: 760px) {
+
+    .barra-nav__logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer__derechos {
+        margin-top: 20px;
+    }
+}

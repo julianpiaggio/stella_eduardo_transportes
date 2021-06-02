@@ -1,0 +1,12 @@
+.barra-nav__logo {
+    width: 100px;
+}
+
+.nav-item-active {
+    color: rgba(0,0,0,5);
+}
+
+.barra-nav {
+    display: flex;
+    justify-content: space-between;
+}

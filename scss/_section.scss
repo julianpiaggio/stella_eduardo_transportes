@@ -1,0 +1,99 @@
+.descripcion__parrafo {
+    margin-top: 30px;
+}
+
+.nosotros__img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.nosotros__nombre {
+    text-align: center;
+}
+
+.nosotros__texto {
+    text-align: center;
+}
+
+.servicios__opciones {
+    list-style: none;
+    font-size: 50px;
+    padding: 20px;
+    margin-left: 30px; 
+}
+
+.servicios {
+    display: flex; 
+}
+
+.servicios--lado {
+    flex-direction: row; 
+}
+
+.servicios--lado1 {
+    flex-direction: row-reverse; 
+}
+
+.servicios__opciones--tamanio {
+    font-size: 30px; 
+}
+
+.servicios__opciones p {
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 3s; }
+
+.conclusion {
+    padding: 20px;
+}
+
+.conclusion__respuestas {
+    font-size: 30px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.conclusion__motivos {
+    margin: 17px 0px;
+    padding-left: 40px;
+}
+
+.conclusion__motivos__items {
+    margin: 10px;
+}
+
+.conclusion__motivos__items {
+    margin: 10px; 
+}
+
+.conclusion__motivos p {
+    padding-left: 10px;
+}
+
+.carru {
+    justify-content: center;
+}
+
+.carru__img {
+    height: 500px;
+}
+
+.txt-area {
+    margin-top: 30px; 
+}
+
+.form-control {
+    text-align: left; 
+}
+
+.form-inline {
+    justify-content: center; 
+}
+
+.formito {
+    text-align: center; 
+}
